@@ -1,8 +1,8 @@
 <?php
 // Text
 $_['text_search']              = 'Search';
-$_['text_brand']               = 'Brand';
-$_['text_manufacturer']        = 'Brand:';
+$_['text_brand']               = 'Brand: ';
+$_['text_manufacturer']        = 'Brand: ';
 $_['text_model']               = 'Product Code:';
 $_['text_reward']              = 'Reward Points:';
 $_['text_points']              = 'Price in reward points:';
@@ -17,7 +17,7 @@ $_['text_write']               = 'Write a review';
 $_['text_login']               = 'Please <a href="%s">login</a> or <a href="%s">register</a> to review';
 $_['text_no_reviews']          = 'There are no reviews for this product.';
 $_['text_note']                = '<span class="text-danger">Note:</span> HTML is not translated!';
-$_['text_success']             = 'Thank you for your review. It has been submitted to the webmaster for approval.';
+$_['text_success']             = 'Thank you for your review';
 $_['text_related']             = 'Related Products';
 $_['text_tags']                = 'Tags:';
 $_['text_error']               = 'Product not found!';

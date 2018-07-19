@@ -2227,6 +2227,7 @@ transition: all 0.5s ease;
 	padding-left: 20px !important;
 }
 #product-category .single-banner .img-thumbnail {
+	margin-top:40px;
 	border-radius: 0;
 }
 .category_list1, .category_list2{
@@ -3359,7 +3360,7 @@ transition: all 0.3s ease 0s;
 /* content */
 .content-top,.content-bottom {
 
-	margin-top:40px;
+	margin-top:15px;
     width: 100%;
     float: left;
     padding: 0 50px;
@@ -3961,7 +3962,7 @@ ul.subcats li, ul.subcats li a{
 	text-align: center;
 	clear: both;
 	background: #d12c2d none repeat scroll 0 0;
-	padding: 22px 50px;
+	padding: 10px 50px;
 	color: #fff;
 	width: 100%;
 	float: left;

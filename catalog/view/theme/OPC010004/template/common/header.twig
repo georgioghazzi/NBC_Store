@@ -5,6 +5,7 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html dir="{{ direction }}" lang="{{ lang }}">
 <!--<![endif]-->
+
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +31,6 @@
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{  mytemplate }}/stylesheet/caprica/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{  mytemplate }}/stylesheet/caprica/animate.css" />
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/caprica/lightbox.css" />
-
 
 {% if direction == 'rtl' %}
 <link rel="stylesheet" type="text/css" href="catalog/view/theme/{{ mytemplate }}/stylesheet/caprica/rtl.css">
@@ -95,6 +95,7 @@
         {#<li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li>#}
          {{ currency }}
           {{ language }}
+      }} 
         <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_wishlist }}</span></a></li>
         <li><a href="{{ checkout }}" title="{{ text_checkout }}"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_checkout }}</span></a></li>
       </ul>
