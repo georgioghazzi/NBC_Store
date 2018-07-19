@@ -4,7 +4,7 @@ $_['heading_title']    = 'Site Map';
 
 // Text
 $_['text_special']     = 'Special Offers';
-$_['text_account']     = 'My Account';
+$_['text_account']     = 'text_account';
 $_['text_edit']        = 'Account Information';
 $_['text_password']    = 'Password';
 $_['text_address']     = 'Address Book';

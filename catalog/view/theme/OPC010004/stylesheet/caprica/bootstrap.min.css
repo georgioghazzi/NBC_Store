@@ -2290,7 +2290,7 @@ textarea.input-lg,select[multiple].input-lg {
 	color: #fff;
 	border: none;
 	border-radius: 50px;
-	background: #007e81;
+	background: #a72324;
 	font-size: 15px;
 	padding: 11px 25px !important;
 }
@@ -3380,7 +3380,7 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 	list-style: none;
 	font-size: 14px;
 	background-color: #fff;
-	border-top: 2px solid #d4be00;
+	border-top: 2px solid #a72324;
 	box-shadow: none !important;
 }
 
@@ -3408,7 +3408,7 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 
 .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
     text-decoration: none;
-    color: #d4be00;
+    color: #a72324;
     background-color: transparent;
 }
 

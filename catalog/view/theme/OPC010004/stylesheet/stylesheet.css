@@ -1027,10 +1027,10 @@ padding:0;
     border-radius: 0;
     background: #ffffff;
 	border:1px solid #ededed;
-    border-top: 2px solid #AADC00;
+    border-top: 2px solid #a72324;
     padding: 15px 0;
 }
-.static_links .dropdown-menu .list-unstyled.childs_1 > li{padding-bottom:0;}
+.static_links a72324 .list-unstyled.childs_1 > li{padding-bottom:0;}
 
 .static_links ul {
   /*height: 100%;*/
@@ -2400,7 +2400,7 @@ width:100%;}
 	padding: 5px 0 3px;
 }
 .care_img {
-    background: url(../image/caprica/cart.png) no-repeat center 9px #AADC00;
+    background: url(../image/caprica/cart.png) no-repeat center 9px #a72324;
     width: 45px;
     height: 45px;
     border-radius: 50px;
@@ -2433,7 +2433,8 @@ width:100%;}
   height:20px
 }
 .header-container .dropdown.myaccount {
-	background: #AADC00 none repeat scroll 0 0;
+	cursor: pointer;
+	background: #a72324 none repeat scroll 0 0;
 	border-radius: 50px;
 	height: 45px;
 	width: 45px;
@@ -2557,7 +2558,7 @@ header #cart li a, header #cart li {color:#333333; background:none;}
 	border-radius: 0;
 	box-shadow: none !important;
 	transition: none;
-	border-top: 2px solid #AADC00;
+	border-top: 2px solid #a72324;
 	top: 100%;
 	margin: 0;
 }
@@ -3027,7 +3028,7 @@ background:url("../image/caprica/iconhover.png") no-repeat scroll 0 -318px rgba(
 	width: 100%;
 	margin: 0 !important;
 	left: 100%;
-	border-left: 2px solid #AADC00;
+	border-left: 2px solid #a72324;
 	border-radius: 0;
 }
 #menu ul.nav li .megamenu.column1 ul.list-unstyled > li:hover.dropdown .dropdown-menu {
@@ -3296,7 +3297,7 @@ transition: all 0.3s ease 0s;
 }
 #nav-one li .megamenu.column1 ul.list-unstyled > li.dropdown:hover > .dropdown-menu ul { min-width:190px; }
 #nav-one li .megamenu.column1 ul.list-unstyled li:hover > a, #nav-one li .megamenu ul.list-unstyled li .dropdown-menu ul.list-unstyled li:hover > a, .hiden_menu .top_level:hover > a {
-	color: #AADC00;
+	color: #a72324;
 }
 .column_left_cms .box.last .list-group{
     border-bottom: medium none;
@@ -4194,7 +4195,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	color: #fff  !important;
 }
 #cart .dropdown-menu li p a {
-	background: #AADC00;
+	background: #a72324;
 	border-radius: 5px;
 	padding: 12px 0 !important;
 	color: #fff;
@@ -4873,12 +4874,12 @@ padding:5px;
   	 
 }
 .product-list .addtocart:hover {
-background: #AADC00 none repeat scroll 0 0;
-border-color: #AADC00;
+background: #a72324 none repeat scroll 0 0;
+border-color: #a72324;
 }
 .product-thumb .button-group .addtocart:hover{
-	background: #AADC00 none repeat scroll 0 0;
-	border-color: #AADC00;
+	background: #a72324 none repeat scroll 0 0;
+	border-color: #a72324;
 }
 .product-thumb .button-group button:hover,.product-thumb .button-group button:focus{
 	color: #2196f3;
@@ -5368,7 +5369,7 @@ margin: 0 ;
 #content .productbox-grid  .product-block,
 #content .box-product .product-block,
 .category_tab .tab-pane .product-block ..button-group button:hover{
-background:#e95e19;
+background:#fff;
 color:#ffffff;
 }
 
@@ -5744,7 +5745,7 @@ display:none;
 	display: inline-block;
 }
 .top_button:hover{
-background: #AADC00;
+background: #a72324;
 border-radius:50%;
 -webkit-border-radius:50%;
 -khtml-border-radius:50%;
@@ -7415,7 +7416,7 @@ clear:both
 .customNavigation a.prev:hover::before , .customNavigation a.next:hover::before {
     color: #AADC00;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{background: #AADC00  !important;color: #ffffff !important;}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{background: #d12c2d  !important;color: #ffffff !important;}
 .btn-primary{box-shadow: none !important;padding: 10px 15px !important;}
 .box-content .customNavigation a:hover{
     background: none;
@@ -8290,7 +8291,7 @@ transition: all 0.3s ease;
 -moz-transition: all 0.3s ease;
 -ms-transition: all 0.3s ease;
 -o-transition: all 0.3s ease;
-background:#e95e19;
+background:#;
 color:#ffffff;
 transform:rotateY(90deg);
 -webkit-transform: rotateY(90deg);
