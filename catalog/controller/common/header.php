@@ -111,11 +111,7 @@ class ControllerCommonHeader extends Controller {
 		
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['column_right'] = $this->load->controller('common/column_right');	
-		if($this->customer->isLogged()){
-			$data['text_customer_name'] = sprintf($this->language->get('text_customer_name'), $this->customer->getFirstName(), $this->customer->getLastName());
-		} else {
-			$data['text_customer_name'] = $this->language->get('text_account');
-		}
+		$data['customer_firstname'] = html_entity_decode($this->customer->getFirstName(), ENT_QUOTES, 'UTF-8');
 		return $this->load->view('common/header', $data);
 	}
 }
