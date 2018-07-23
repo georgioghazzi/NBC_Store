@@ -4079,6 +4079,19 @@ p.powered{
 -khtml-border-radius:5px;
 -moz-border-radius:5px;
 }
+
+.header_top_center{
+	padding-top:10px;
+	font-size:20px;
+float:center;
+}
+.header_top_center a{
+color:#d12c2d;
+}
+
+.header_top_center a:hover{
+	color:#a72324;
+	}
 .btn-primary {
 	color: #000;
     background: #f0f0f0; /* Old browsers */

@@ -90,15 +90,10 @@
   <div class="container">
   <div class="row">
    <div class="header_top_left">{{ headerleft }}</div>
+   <div class="header_top_center">{% if (customer_firstname and customer_lastname) %}Welcome Back  <a href="{{ account }}">{{ customer_firstname }}  {{ customer_lastname }}{% else %} &nbsp; {% endif %}</a></div>
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
-        {#<li><a href="{{ contact }}"><i class="fa fa-phone"></i></a> <span class="hidden-xs hidden-sm hidden-md">{{ telephone }}</span></li>#}
-         {{ currency }}
-          {{ language }}
-      }} 
-        <li><a href="{{ wishlist }}" id="wishlist-total" title="{{ text_wishlist }}"><i class="fa fa-heart"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_wishlist }}</span></a></li>
-        <li><a href="{{ checkout }}" title="{{ text_checkout }}"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">{{ text_checkout }}</span></a></li>
-      </ul>
+     </ul>
     </div>
 	</div>
   </div>

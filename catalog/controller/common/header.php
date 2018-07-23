@@ -112,6 +112,11 @@ class ControllerCommonHeader extends Controller {
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['column_right'] = $this->load->controller('common/column_right');	
 		$data['customer_firstname'] = html_entity_decode($this->customer->getFirstName(), ENT_QUOTES, 'UTF-8');
+		if ($this->customer->isLogged()) {
+			$data['customer_firstname'] = $this->customer->getFirstName();
+			$data['customer_lastname'] = $this->customer->getLastName();
+			
+		}
 		return $this->load->view('common/header', $data);
 	}
 }
