@@ -90,9 +90,10 @@
   <div class="container">
   <div class="row">
    <div class="header_top_left">{{ headerleft }}</div>
-   <div class="header_top_center">{% if (customer_firstname and customer_lastname) %}Welcome Back  <a href="{{ account }}">{{ customer_firstname }}  {{ customer_lastname }}{% else %} &nbsp; {% endif %}</a></div>
+   <div class="header_top_center"></div>
     <div id="top-links" class="nav pull-right">
       <ul class="list-inline">
+      <li>{% if (customer_firstname and customer_lastname) %}Welcome,  <a href="{{ account }}">{{ customer_firstname }}  {{ customer_lastname }}{% else %} &nbsp; {% endif %}</a></li>
      </ul>
     </div>
 	</div>
