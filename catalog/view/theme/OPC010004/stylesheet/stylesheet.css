@@ -60,7 +60,7 @@ a {
 }
 a:hover, a:focus{
 	text-decoration: none;
-	color:#AADC00 ;
+	color:#d12c2d ;
 }
 legend {
 	font-size: 18px;
@@ -3591,7 +3591,7 @@ footer .ct-about-logo {
     color: #ffffff;
 }
 #social_block .toggle-footer li:hover {
-    background: #AADC00 none repeat scroll 0 0;
+    background: #d12c2d none repeat scroll 0 0;
     color: #ffffff;
 }
 #footer #footer_storeinformation_block .payment-cms .payment li {
@@ -7427,7 +7427,7 @@ clear:both
     color: #ffffff;
 }
 .customNavigation a.prev:hover::before , .customNavigation a.next:hover::before {
-    color: #AADC00;
+    color: #d12c2d;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{background: #d12c2d  !important;color: #ffffff !important;}
 .btn-primary{box-shadow: none !important;padding: 10px 15px !important;}
@@ -8988,10 +8988,12 @@ h3 .fa{ margin-right:10px;}
 
 /*...Service Cms...*/
 .service_inner {
+	cursor: pointer;
     width: 100%;
     float: left;
     text-align: center;
 	padding: 25px 50px;
+	margin-bottom: 10px;
 }
 .service_inner .service {
     display: inline-block;
@@ -9019,7 +9021,7 @@ h3 .fa{ margin-right:10px;}
     letter-spacing: 0.07em;
     color: #616161;
 }
-.service:hover .service-content .content-title {color: #AADC00;}
+.service:hover .service-content .content-title {color: #d12c2d;}
 .service_inner .service .icon {
     width: 36px;
     height: 36px;
@@ -9260,7 +9262,7 @@ h3 .fa{ margin-right:10px;}
 	-ms-transition: all 0.6s ease;
 	-o-transition: all 0.6s ease;}
 .category_details li:hover,
-.category_details li:hover a {color: #AADC00;}
+.category_details li:hover a {color: #d12c2d;}
 /*...Cms Block...*/
 
 .cms_inner {

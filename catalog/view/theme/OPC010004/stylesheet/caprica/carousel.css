@@ -84,14 +84,14 @@
 .customNavigation a.prev:before{
 content:"\f104";
 font-family:"fontawesome";
-color:#007e81;
+color:#AADC00;
 font-size:24px;
 padding: 0 2px 0 0
 }
 .customNavigation a.next:before{
 content:"\f105";
 font-family:"fontawesome";
-color:#007e81;
+color:#AADC00;
 font-size:24px;
 }
 

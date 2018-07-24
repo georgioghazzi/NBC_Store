@@ -297,7 +297,7 @@ a {
 }
 
 a:hover,a:focus {
-    color:#d4be00;
+    color:#d12c2d;
     text-decoration: none;
 }
 
@@ -443,7 +443,7 @@ p {
 }
 #content li.price-tax {
     font-size: 14px;
-    color: #d4be00;
+    color: #d12c2d;
     padding: 0;
 }
 @media (min-width:768px) {
@@ -2311,8 +2311,8 @@ border:none;
 }
 
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active {
-    /*background: #d4be00;
-    border: 1px solid #d4be00;*/
+    /*background: #d12c2d;
+    border: 1px solid #d12c2d;*/
 }
 
 .btn-primary .badge {
@@ -3951,11 +3951,11 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .nav-tabs>li>a:hover {
     border-color: transparent;
-    color: #d4be00;
+    color: #d12c2d;
 }
 
 /*.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus {
-	color:#d4be00;
+	color:#d12c2d;
 }*/
 .nav-tabs > li.active > a {
     background: #ff8142; /* Old browsers */
@@ -5906,7 +5906,7 @@ button.close {
     color: #fff;
     text-align: center;
     text-decoration: none;
-    background-color: #d4be00;
+    background-color : #d12c2d;
 }
 
 .tooltip-arrow {
@@ -5922,7 +5922,7 @@ button.close {
     left: 50%;
     margin-left: -5px;
     border-width: 5px 5px 0;
-    border-top-color: #d4be00;
+    border-top-color: #d12c2d;
 }
 
 .tooltip.top-left .tooltip-arrow {
