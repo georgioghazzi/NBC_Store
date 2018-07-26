@@ -2518,7 +2518,7 @@ letter-spacing: 0.08em;
 text-transform: capitalize;
 }
 #top-links .fa {display: none;}
-#top-links .list-inline a {color: #676767;}
+#top-links .list-inline a {color: #a72324;}
 #cart > .btn .fa{
 	display: none;
 }
@@ -9160,23 +9160,25 @@ h3 .fa{ margin-right:10px;}
 .parallax_inner {
     width: 100%;
     float: left;
-    height: 430px;
+    height: 500px;
     position: relative;
 	margin-bottom: 70px;
 	background:url(../image/caprica/parallax_bg.jpg) no-repeat 0 0;
 }
 .parallax_content {
     text-align: center;
-    padding: 62px 50px 80px;
+	padding: 95px 50px 80px;
+	
 }
 .parallax_inner .parallax_titlt {
     font-size: 62px;
     line-height: 62px;
     font-weight: 600;
-    color: #000;
+    color: #d12c2d;
 	letter-spacing: 0;
 }
 .parallax_inner .parallax_titlt span {
+	line-height: 100px;
     display: block;
     color: #fff;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.48);
@@ -9185,20 +9187,21 @@ h3 .fa{ margin-right:10px;}
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 0.02em;
-    color: #000;
+    color: #fff;
     margin: 40px 0;
 }
-.parallax_inner .parallax_btn {display: inline-block;}
+.parallax_inner .parallax_btn {padding-top:15px;display: inline-block;}
 .parallax_inner .parallax_btn a {
-    font-size: 15px;
+    font-size: 25px;
     line-height: 28px;
     letter-spacing: 0.02em;
     color: #fff;
     background: #d12c2d;
-    padding: 11px 35px 12px;
-    border-radius: 50px;
+    padding: 16px 35px 16px;
+	border-radius: 50px;
+	
 }
-.parallax_inner .parallax_btn a:hover {background: #AADC00;}
+.parallax_inner .parallax_btn a:hover {background:  #a72324;}
 
 /*...Category Cms...*/
 
@@ -9417,20 +9420,22 @@ h3 .fa{ margin-right:10px;}
 	margin-bottom: 15px;
 }
 .contact_inner li {
+	cursor: pointer;
     font-size: 12px;
     line-height: 26px;
     letter-spacing: 0.06em;
     color: #464646;
 }
 .fas.fa-envelope {
+
 	font-family: 'FontAwesome';
 	font-style: normal;
 	font-size: 14px;
-	color: #AADC00;
+	color: #d12c2d;
 	margin-right: 5px;
 	vertical-align: top;
 }
-.contact_inner li.contact_email:hover {color: #AADC00;}
+.contact_inner li.contact_email:hover {color: #d12c2d;}
 
 /*...PayMentCms Block...*/
 
