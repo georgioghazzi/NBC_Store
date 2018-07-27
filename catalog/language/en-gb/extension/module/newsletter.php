@@ -1,9 +1,9 @@
 <?php
 // Heading
-$_['heading_title']     = 'Signup and get a Voucher ';
-$_['news_offer']        = '*voucher is valid only on new registration';
-$_['for_newly']        = 'For Newly';
-$_['worth']        = 'worth $250';
+$_['heading_title']     = 'Get Weekly Deals Alerts*';
+$_['news_offer']        = 'We Promise We Won\'t spam  you ';
+$_['for_newly']        = '';
+$_['worth']        = '';
 $_['text_subscribe']	= 'Subscribe';
 
 // Entry

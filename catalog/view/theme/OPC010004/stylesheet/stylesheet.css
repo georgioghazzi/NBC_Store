@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* default font size */
 .fa {
-	font-size: 14px;
+	color:#d12c2d;
+	font-size: 25px;
 }
 .fa-stack{width: 12px;
     font-size: 8px;
@@ -3399,8 +3400,19 @@ footer hr {
 	border-bottom: 1px solid #666;
 }
 footer a {
-	color: #ffffff;
-	font-size:13px;
+	color: #000;
+	font-size:24px;
+}
+.a-copyright{
+	font-size:16px;
+}
+.a-copyright:hover{
+	color:#fff !important;
+}
+.small-size{
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+
 }
 #footer .column li a {
 	line-height: 31px;
@@ -3414,12 +3426,12 @@ float:none;
 }
 
 #footer .column li a:hover,#footer .column li a:focus {
-	color:#AADC00 !important;
+	color:#d12c2d !important;
 	background-position: 0 -23px; 
 }
 
 footer a:hover,footer a:focus {
-	color:#AADC00 !important;
+	color:#d12c2d !important;
 }
 #social_block {
     float: right !important;
@@ -3530,7 +3542,7 @@ footer .follow, footer .payment {
 }
 #social_block .toggle-footer li:last-child {margin: 0;}
 #social_block li a {color: #363636;}
-#social_block .toggle-footer li .fa {font-size: 17px;}
+#social_block .toggle-footer li .fa {font-size: 25px;}
 #footer_aboutus_block > h5 {
     display: none;
 }
@@ -7314,13 +7326,13 @@ border-radius:5px;
 
 .htabs a.selected, .categorytab .nav-tabs li.active a {
 color: #fff;
-background: #AADC00;
+background: #d12c2d;
 }
 .htabs a:hover{
 color: #fff;
-background: #AADC00;
-border-left: 1px solid #AADC00;
-border-right: 1px solid #AADC00;
+background: #d12c2d;
+border-left: 1px solid #d12c2d;
+border-right: 1px solid #d12c2d;
 }
 .tab-content  {
 	position:relative;
