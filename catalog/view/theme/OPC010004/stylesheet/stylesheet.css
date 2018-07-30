@@ -8582,7 +8582,7 @@ color:#000000 !important;
 #content .product-list .product-block-inner .image .wishlist {display: none;}
 #content .product-block-inner .wishlist:hover {background: #fff;}
 #content .product-block-inner:hover .wishlist {opacity: 1;}
-.fa.fa-heart {color: #fff;}
+.fa.fa-heart {font-size:16px;color: #fff;}
 #content .product-block-inner .wishlist:hover .fa.fa-heart {color: #000;}
 #content .product-grid .product-thumb:hover .quickview-button, #content .product-list .product-thumb:hover .quickview-button, #content .product-carousel .product-thumb:hover .quickview-button, #content .box-product .product-thumb:hover .quickview-button, #producttab .box-product .product-thumb:hover .quickview-button, .related .box-product .product-thumb:hover .quickview-button { 
 	opacity: 1;
