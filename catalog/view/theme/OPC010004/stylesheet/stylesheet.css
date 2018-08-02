@@ -3779,7 +3779,7 @@ display:none;
 	-khtml-border-radius: 0 50px 50px 0;
 	-moz-border-radius: 0 50px 50px 0;
 }
-.newsletter .subscribe-btn:hover {background: #AADC00;}
+.newsletter .subscribe-btn:hover {background:#d12c2d;}
 .input-news .text-danger { color: #AADC00; position:absolute; left:0px; }
 
 .newsletter .form-group{ 

@@ -1,0 +1,21 @@
+{{ header }}{{ column_left }}
+
+<div id="content">
+
+    <d_cron></d_cron>
+
+</div>
+
+{% for riot_tag in riot_tags %}
+    <script src="{{ riot_tag }}" type="riot/tag"></script>
+{% endfor %}
+
+
+<script>
+    var state = {{ state|json_encode(constant('JSON_FORCE_OBJECT')) }};
+    riot.mixin({ store : d_cron.createStore(state) })
+    riot.mount('*');
+    route.start(true);
+</script>
+
+{{ footer }}

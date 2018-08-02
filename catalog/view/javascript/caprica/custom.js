@@ -434,26 +434,26 @@ $(window).resize(function(){gridlistactive()});
 
 
 /*For Back to Top button*/
-$(document).ready(function(){
-$("body").append("<a class='top_button' title='Back To Top' href=''>TOP</a>");
+// $(document).ready(function(){
+// $("body").append("<a class='top_button' title='Back To Top' href=''>TOP</a>");
 
-$(function () {
-	$(window).scroll(function () {
-		if ($(this).scrollTop() > 70) {
-			$('.top_button').fadeIn();
-		} else {
-			$('.top_button').fadeOut();
-		}
-	});
-	// scroll body to 0px on click
-	$('.top_button').click(function () {
-		$('body,html').animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
-});
-});
+// $(function () {
+// 	$(window).scroll(function () {
+// 		if ($(this).scrollTop() > 70) {
+// 			$('.top_button').fadeIn();
+// 		} else {
+// 			$('.top_button').fadeOut();
+// 		}
+// 	});
+// 	// scroll body to 0px on click
+// 	$('.top_button').click(function () {
+// 		$('body,html').animate({
+// 			scrollTop: 0
+// 		}, 800);
+// 		return false;
+// 	});
+// });
+// });
 
 
 $(document).ready(function(){

@@ -1,0 +1,90 @@
+@import 'scss/variable';
+@import 'scss/seo';
+
+body {
+    line-height: 1.42857;
+}
+
+button {
+    outline-color: rgba(255, 255, 255, 0) !important;
+    outline: 0px solid white !important;
+    -moz-outline: 0px solid white !important;
+    -webkit-outline: 0px solid white !important;
+}
+
+button + button {
+    margin-left: 3px;
+}
+
+.form-group {
+    padding-top: 15px;
+}
+
+#cancel-button {
+    margin-left: 3px;
+}
+
+.main-panel-title {
+    width: 100%;
+}
+
+.main-row {
+    margin-top: 15px;
+}
+
+.no-cron-jobs {
+    font-weight: 400;
+}
+
+#cron_expression {
+    text-align: center;
+}
+
+.error {
+    border-color: #e3503e !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.status-helper {
+    cursor: pointer;
+}
+
+.label-cron {
+    background: #ccc;
+    color: #fff;
+}
+
+.label-php {
+    background: #8892BF;
+    color: #fff;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.help-description {
+    font-size: 16px;
+}
+
+.help-link {
+    margin-top: 10px;
+}
+
+.ajs-content {
+    font-size: 16px;
+}
+
+.test-button + .test-button {
+    margin-left: 10px;
+}
+
+.test-status {
+    pointer-events: none;
+    cursor: default;
+}
+
+.test-label {
+    margin-left: 5px;
+}
