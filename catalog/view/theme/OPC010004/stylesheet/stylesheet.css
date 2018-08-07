@@ -27,6 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 	color:#d12c2d;
 	font-size: 25px;
 }
+.fa-times{
+	color:#fff !important;
+}
 .fa-stack{width: 12px;
     font-size: 8px;
 }
@@ -2414,7 +2417,7 @@ width:100%;}
     vertical-align: top;
     padding: 3px 0 2px 10px;
 }
-.btn-danger{padding: 0 5px !important;}
+.btn-danger{padding: 0 5px;}
 .alert{float: right;display: inline-block;width: 81%;}
 #cart button > h4 {
     font-size: 13px;
