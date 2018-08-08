@@ -6017,7 +6017,7 @@ background-position: -4px -155px !important;
     border: medium none;
     box-shadow: none;
 }
-.contact-info{}
+
 .contact-info .address-detail strong {
 	color:#000;
     background: url("../image/caprica/cms-sprite.png") no-repeat scroll -8px -232px transparent;
@@ -6058,7 +6058,8 @@ background-position: -4px -155px !important;
 	margin:10px 0 0;
 	float:left;
 	clear:both;
-	font-size: 16px;
+	color:#000;
+	font-size:18px;
 	font-weight: 500
 }
 .checkout-cart .alert.alert-danger{width: 100%;}
@@ -6073,7 +6074,7 @@ background-position: -4px -155px !important;
 	font-weight: 500
 }
 .contact-info address {
-	
+	padding-top:10px;
 	color:#000;
     display: inline-block;
     margin: 0 0 0 36px;
@@ -6129,13 +6130,18 @@ background-position: -4px -155px !important;
 }
 
 .opening{
-	margin-top:8px;
+	
+	padding-top:10px;
 	margin-left:20px;
 	color:#000;
 	font-size:18px;
 }
+.pad10{
+	padding-top:10px;
+}
 .red{
 	color:#d12c2d;
+	font-weight: 600;
 }
 .opening strong{
 	font-size:20px;
