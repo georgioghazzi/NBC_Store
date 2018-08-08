@@ -2290,7 +2290,7 @@ textarea.input-lg,select[multiple].input-lg {
 	color: #fff;
 	border: none;
 	border-radius: 50px;
-	background: #a72324;
+	background: #d9534f;
 	font-size: 15px;
 	padding: 11px 25px !important;
 }
@@ -2402,7 +2402,6 @@ border:none;
 .btn-danger {
     color: #fff;
     background-color: #d9534f;
-    border-color: #d43f3a;
 	border-radius:5px;
 }
 
@@ -3844,6 +3843,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .input-group-btn {
+    
     position: relative;
     font-size: 0;
     white-space: nowrap;

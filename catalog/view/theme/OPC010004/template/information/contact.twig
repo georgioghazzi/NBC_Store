@@ -14,7 +14,6 @@
     {% set class = 'col-sm-12' %}
     {% endif %}
     <div id="content" class="{{ class }}">{{ content_top }}
-      <h1>{{ heading_title }}</h1>
       <h3>{{ text_location }}</h3>
       <div class="panel panel-default">
         <div class="panel-body">
@@ -24,6 +23,7 @@
             <div class="address-detail"><img src="{{ image }}" alt="{{ store }}" title="{{ store }}" class="img-thumbnail" /></div>
 		   {% endif %} 
             <div class="address-detail"><strong>{{store }}</strong>
+            <br>
              <address>
               {{ address }} 
               </address>
@@ -33,7 +33,8 @@
             </div>
             <div class="telephone">
 			<strong>{{ text_telephone }} </strong>
-               <address>{{ telephone }}  </address>
+      <br>
+               <a class="contactred" href="tel:+9611870600"=><address>{{ telephone }}  </address></a>
 			</div>
 			<div class="fax">
               {% if fax %} 
@@ -45,25 +46,16 @@
 			</div>
 			<div class="right">
 				<div class="map">
-						{# 
-						$geo=explode(',',$geocode);
-						print_r($geo);
-						echo count($geo);
-						if(count($geo)==2){
-								echo "yes";
-						}
-						else{
-								echo "no";
-						}
-					 #}
-				<script type="text/javascript" src="http://www.webestools.com/google_map_gen.js?lati=21.182785&long=72.831834&zoom=4&width=350&height=200&mapType=normal&map_btn_normal=yes&map_btn_satelite=yes&map_btn_mixte=yes&map_small=yes&marqueur=yes&info_bulle="></script>
-				</div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.0321053337702!2d35.55665581521064!3d33.8888269806507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1623b8f3ed5f%3A0x24f9905a080fc6b!2sNBC+Computers!5e0!3m2!1sen!2slb!4v1533729459132" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+          				</div>
 			</div>
             <div class="col-sm-3">
               {% if open %}
+              <div class="opening">
               <strong>{{ text_open }}</strong><br />
               {{ open }}<br />
               <br />
+              </div>
               {% endif %}
               {% if comment %}
               <strong>{{ text_comment }}</strong><br />

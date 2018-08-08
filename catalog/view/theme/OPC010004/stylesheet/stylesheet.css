@@ -27,6 +27,12 @@ h1, h2, h3, h4, h5, h6 {
 	color:#d12c2d;
 	font-size: 25px;
 }
+.fa-refresh{
+	color:#fff;
+}
+.fa-times-circle{
+	color:#fff;
+}
 .fa-times{
 	color:#fff !important;
 }
@@ -4531,8 +4537,8 @@ h2.price {
   color: #ffffff !important;
 }
 .account-address .btn-info:hover, .btn.btn-primary:hover, #account-order .table-responsive .text-right .btn.btn-info:hover, .btn.btn-default:hover, #information-contact .buttons .pull-right .btn.btn-primary:hover, #account-return .form-horizontal .pull-right .btn.btn-primary:hover,#product-compare .btn.btn-primary.btn-block:hover, #account-return .form-horizontal .pull-left .btn.btn-default:hover, #button-review.btn.btn-primary:hover{
-  background-color: #AADC00 ;
-  border-color: #AADC00 ;
+  background-color: #d9534f ;
+  border-color: #d9534f ;
   color: #fff;
 }
 #account-order .table-responsive .text-right .btn.btn-info, .account-address .btn-info, .btn.btn-default, .btn-primary, #information-contact .buttons .pull-right .btn.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary#account-return .form-horizontal .pull-right .btn.btn-primary, #account-return .form-horizontal .pull-left .btn.btn-default, #button-review.btn.btn-primary, #product-compare .btn.btn-primary.btn-block{
@@ -6013,24 +6019,26 @@ background-position: -4px -155px !important;
 }
 .contact-info{}
 .contact-info .address-detail strong {
+	color:#000;
     background: url("../image/caprica/cms-sprite.png") no-repeat scroll -8px -232px transparent;
    	padding: 5px 0 0 35px;
 	height:28px;
 	margin:10px 0 0;
 	float:left;
 	clear:both;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 500
 }
 .contact-info .address-detail,.contact-info .telephone,.contact-info .fax,  .contact-info .openingtime,.contact-info .comments{float:left;width:100%;}
 .contact-info .telephone strong{
+	color:#000;
     background: url("../image/caprica/cms-sprite.png") no-repeat scroll -8px -313px transparent;
     padding: 5px 0 0 35px;
 	margin:10px 0 0;
 	height:28px;
 	float:left;
 	clear:both;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 500
 }
 .contact-info .fax strong{
@@ -6065,11 +6073,79 @@ background-position: -4px -155px !important;
 	font-weight: 500
 }
 .contact-info address {
+	
+	color:#000;
     display: inline-block;
     margin: 0 0 0 36px;
 	float:left;
 	clear:both;
-	font-size: 13px;
+	font-size: 18px;
+}
+
+@-webkit-keyframes jiggle {
+  15%,40%,75%,100% {
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  15% {
+    -webkit-transform: scale(1.4, 1.2);
+            transform: scale(1.4, 1.2);
+  }
+  40% {
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(1.08, 1);
+            transform: scale(1.08, 1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+@keyframes jiggle {
+  15%,40%,75%,100% {
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+  }
+  15% {
+    -webkit-transform: scale(1.4, 1.2);
+            transform: scale(1.4, 1.2);
+  }
+  40% {
+    -webkit-transform: scale(0.9, 0.9);
+            transform: scale(0.9, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(1.08, 1);
+            transform: scale(1.08, 1);
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+
+.opening{
+	margin-top:8px;
+	margin-left:20px;
+	color:#000;
+	font-size:18px;
+}
+.red{
+	color:#d12c2d;
+}
+.opening strong{
+	font-size:20px;
+
+}
+.contactred{
+	color:#000;
+}
+.contactred:hover{
+	color:#d12c2d;
 }
 .address-detail .btn {
     clear: both;
@@ -6301,6 +6377,9 @@ border-radius: 5px !important;
 -moz-border-radius: 5px !important;
 -khtml-border-radius: 5px !important;
 padding: 12px 14px !important;
+}
+.smallimp{
+	padding:4px 14px !important;
 }
 
 .col-sm-3.search_subcategory {width:100%; margin-top:7px;}
@@ -7467,7 +7546,7 @@ clear:both
     border: none;
 }
 #account-return .btn.btn-default:hover {
-  background: #d12c2d none repeat scroll 0 0;
+  background: #d9534f none repeat scroll 0 0;
   border: 1px solid #d12c2d;
   color: #000000 !important;
 }
@@ -11348,8 +11427,8 @@ margin:0;}
 }
 .alert-dismissable .close, .alert-dismissible .close{right: 0 !important;}
 .checkout-cart #content .buttons .pull-right .btn:hover{
-    background-color: #AADC00 !important;
-    border-color: #AADC00 !important;
+    background-color: #d95026 !important;
+    border-color: #d95026 !important;
 }
 #accordion.panel-group .panel{width:100%;}
 .checkout-success p a {
@@ -11364,5 +11443,58 @@ padding:0;
   float: left;
   overflow: auto;
 }
+
+
+#logo:hover{
+	-webkit-animation: jiggle 1s ease-out;
+	animation: jiggle 1s ease-out;
+}
+
+
+@-webkit-keyframes jiggle {
+	15%,40%,75%,100% {
+	  -webkit-transform-origin: center center;
+			  transform-origin: center center;
+	}
+	15% {
+	  -webkit-transform: scale(1.4, 1.2);
+			  transform: scale(1.4, 1.2);
+	}
+	40% {
+	  -webkit-transform: scale(0.9, 0.9);
+			  transform: scale(0.9, 0.9);
+	}
+	75% {
+	  -webkit-transform: scale(1.08, 1);
+			  transform: scale(1.08, 1);
+	}
+	100% {
+	  -webkit-transform: scale(1, 1);
+			  transform: scale(1, 1);
+	}
+  }
+  
+  @keyframes jiggle {
+	15%,40%,75%,100% {
+	  -webkit-transform-origin: center center;
+			  transform-origin: center center;
+	}
+	15% {
+	  -webkit-transform: scale(1.4, 1.2);
+			  transform: scale(1.4, 1.2);
+	}
+	40% {
+	  -webkit-transform: scale(0.9, 0.9);
+			  transform: scale(0.9, 0.9);
+	}
+	75% {
+	  -webkit-transform: scale(1.08, 1);
+			  transform: scale(1.08, 1);
+	}
+	100% {
+	  -webkit-transform: scale(1, 1);
+			  transform: scale(1, 1);
+	}
+  }
 
 /* caprica www.capricathemes.com End */
