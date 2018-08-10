@@ -4235,7 +4235,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
 	color: #fff;
 }
 .list-group a.active, .list-group a.active:hover, .list-group a:hover {
-	color: #d4b300 !important;
+	color: #d12c2d !important;
 }
 #button-filter.btn.btn-primary {
 	background: #d12c2d none repeat scroll 0 0;
@@ -5830,6 +5830,8 @@ border-radius:50%;
 .col-sm-4.total_amount { margin-top: 70px;}
 .product-tag{margin:5px 0;}
 .aboutus {
+	margin-top:30px;
+	font-size:18px;
     clear: both;
 	margin-bottom:20px
 }
@@ -8455,7 +8457,7 @@ transform:rotateX(0deg);
 #form-review .col-sm-2, #form-review .col-sm-10{width:100%;}
 .container h1, .container h2{ color:#000;    font-weight: 700;text-transform: uppercase; }
 .content-top-breadcum #title-content > h2 , .content-top-breadcum #title-content > h1 {font-size:14px;    float: left; color:#000;}
-#content h3{color:#000; margin-bottom:10px; font-weight:600; clear:both;}
+#content h3{color:#d12c2d;font-size: 30px; margin-bottom:10px; font-weight:600; clear:both;}
 #form-review > h3{font-size:16px; font-weight:500;}
 #content h3.product-title, #content h3.product-option{margin-bottom:10px;}
 #content.productpage .product-title{
@@ -9134,10 +9136,10 @@ h3 .fa{ margin-right:10px;}
 .service_inner .service3-icon.icon {background-position: center -670px;}
 .service_inner .service4-icon.icon {background-position: center -1010px;}
 
-.service_inner .service:hover .service1-icon.icon {background-position: center -161px;}
-.service_inner .service:hover .service2-icon.icon {background-position: center -500px;}
-.service_inner .service:hover .service3-icon.icon {background-position: center -839px;}
-.service_inner .service:hover .service4-icon.icon {background-position: center -1179px;}
+.service_inner .service:hover .service1-icon.icon {background-position: center -161px;-webkit-animation:shakeshake .5s ease;-moz-animation:shakeshake .5s ease;-o-animation:shakeshake .5s ease;-ms-animation:shakeshake .5s ease;animation:shakeshake .5s ease}
+.service_inner .service:hover .service2-icon.icon {background-position: center -500px;-webkit-animation:shakeshake .5s ease;-moz-animation:shakeshake .5s ease;-o-animation:shakeshake .5s ease;-ms-animation:shakeshake .5s ease;animation:shakeshake .5s ease}
+.service_inner .service:hover .service3-icon.icon {background-position: center -839px;-webkit-animation:shakeshake .5s ease;-moz-animation:shakeshake .5s ease;-o-animation:shakeshake .5s ease;-ms-animation:shakeshake .5s ease;animation:shakeshake .5s ease}
+.service_inner .service:hover .service4-icon.icon {background-position: center -1179px;-webkit-animation:shakeshake .5s ease;-moz-animation:shakeshake .5s ease;-o-animation:shakeshake .5s ease;-ms-animation:shakeshake .5s ease;animation:shakeshake .5s ease}
 
 /*...Subbanner Cms...*/
 
@@ -11502,5 +11504,23 @@ padding:0;
 			  transform: scale(1, 1);
 	}
   }
-
+  @-webkit-keyframes shakeshake{
+	  0%,100%{
+		  -webkit-tranform:rotate(0deg)
+		}
+		30%{
+			-webkit-transform:rotate(8deg)
+		}
+		70%{-webkit-transform:rotate(-8deg)
+		}
+	}
+  @keyframes shakeshake{
+	  0%,100%{
+		  -moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg
+		  )
+		}30%{-moz-transform:rotate(8deg);-o-transform:rotate(8deg);-ms-transform:rotate(8deg);transform:rotate(8deg)
+		}
+		70%{-moz-transform:rotate(-8deg);-o-transform:rotate(-8deg);-ms-transform:rotate(-8deg);transform:rotate(-8deg)
+		}
+	}
 /* caprica www.capricathemes.com End */
