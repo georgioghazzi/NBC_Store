@@ -1,3 +1,7 @@
 2018-07-18 18:31:34 - PHP Notice:  Undefined index: config_name in C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\NBC_E_Store\install\model\upgrade\1004.php on line 119
 2018-07-27 15:19:08 - PHP Notice:  Undefined index: config_name in C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\NBC_E_Store\install\model\upgrade\1004.php on line 119
 2018-07-27 15:27:58 - PHP Notice:  Undefined index: config_name in C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\NBC_E_Store\install\model\upgrade\1004.php on line 119
+2018-08-10 9:10:32 - PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'nbc_store' in C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\NBC_E_Store\system\library\db\mysqli.php on line 7
+2018-08-10 9:10:32 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\NBC_E_Store\system\library\db\mysqli.php on line 10
+2018-08-10 9:10:32 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\NBC_E_Store\system\library\db\mysqli.php on line 10
+2018-08-10 9:11:04 - PHP Notice:  Undefined index: config_name in C:\Program Files (x86)\EasyPHP-Devserver-17\eds-www\NBC_E_Store\install\model\upgrade\1004.php on line 119
